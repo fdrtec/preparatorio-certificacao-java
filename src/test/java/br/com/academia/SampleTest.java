@@ -8,7 +8,7 @@ public class SampleTest {
 
   @Test
   public void simpleJUnit5Test() {
-    String result = "duke";
-    assertEquals("duke", result);
+    String result = "Certificacao";
+    assertEquals("Certificacao", result);
   }
 }
