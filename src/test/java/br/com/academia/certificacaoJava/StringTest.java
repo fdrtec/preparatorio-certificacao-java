@@ -18,20 +18,24 @@ public class StringTest {
      * - Usar camelCase
      */
 
-    final static String CONSTANTE = "Certificação";
+    final static String PALAVRA = "Certificação";
+
+    // tipo primitivo e somente com uso de aspas simples
+    final static char CARACTER = 'A';
 
     @Test
     void treinar_metodos_da_classe_String() {
         String variavel = "Certificação";
-        // criando instancia - Não é usado na prática
+
+        // criando por instancia - Não é usado na prática
         String instancia = new String("Certificação");
 
         // Comparação de conteúdo == valores
-        assertEquals(CONSTANTE, instancia);
-        assertEquals(CONSTANTE, variavel);
+        assertEquals(PALAVRA, instancia);
+        assertEquals(PALAVRA, variavel);
 
         // Tamanho da string
-        assertEquals(12, CONSTANTE.length());
+        assertEquals(12, PALAVRA.length());
 
         //
     }
